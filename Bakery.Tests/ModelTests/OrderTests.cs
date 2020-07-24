@@ -55,6 +55,20 @@ namespace Bakery.Tests
 
       CollectionAssert.AreEqual(newList, resultList);
     }
+
+    [TestMethod]
+    public void OrderConstructor_ReturnOrderId_Int()
+    {
+      string title = "scones";
+      string date = "7/24/2020";
+      string description = "we ordered 50 scones but we might need more soon";
+      double price = 110.00;
+      Order newOrder = new Order(title, date, description, price);
+
+      int result = newOrder.Id;
+
+      Assert.AreEqual(123, result);
+    }
   }
 }
 
