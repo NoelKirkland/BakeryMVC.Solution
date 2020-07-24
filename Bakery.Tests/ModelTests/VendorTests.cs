@@ -47,5 +47,17 @@ namespace Bakery.TestTools
 
       CollectionAssert.AreEqual(newList, resultList);
     }
+
+    [TestMethod]
+    public void VendorConstructor_ReturnVendorId_int()
+    {
+      string name = "Grand Central";
+      string description = "best source of scones and danishes in Portland";
+      Vendor newVendor = new Vendor(name, description);
+
+      int result = newVendor.Id;
+
+      Assert.AreEqual(123, result);
+    }
   }
 }
