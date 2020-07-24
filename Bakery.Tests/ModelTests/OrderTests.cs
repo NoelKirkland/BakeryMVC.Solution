@@ -84,7 +84,7 @@ namespace Bakery.Tests
       Order newOrder1 = new Order(title1, date1, description1, price1);
       Order newOrder2 = new Order(title2, date2, description2, price2);
 
-      Order result = Item.Find(2);
+      Order result = Order.Find(2);
 
       Assert.AreEqual(newOrder1, result);
     }
