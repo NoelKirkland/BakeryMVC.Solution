@@ -29,10 +29,10 @@ namespace Bakery.Tests
       string resultDescription = newOrder.Description;
       double resultPrice = newOrder.Price;
 
-      Assert.AreEqual("not this 1", resultTitle);
-      Assert.AreEqual("not this 2", resultDate);
-      Assert.AreEqual("not this 3", resultDescription);
-      Assert.AreEqual("not this 4", resultPrice);
+      Assert.AreEqual(title, resultTitle);
+      Assert.AreEqual(date, resultDate);
+      Assert.AreEqual(description, resultDescription);
+      Assert.AreEqual(price, resultPrice);
     }
   }
 }
