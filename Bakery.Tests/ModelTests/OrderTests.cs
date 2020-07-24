@@ -47,7 +47,7 @@ namespace Bakery.Tests
 
       List<Order> resultList = Order.GetAll();
 
-      CollectionAssert.AreEqual(newList, "Not this");
+      CollectionAssert.AreEqual(newList, resultList);
     }
   }
 }
