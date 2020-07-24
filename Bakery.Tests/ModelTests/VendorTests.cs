@@ -87,7 +87,7 @@ namespace Bakery.TestTools
       string vendorName = "Grand Central";
       string vendoreDescription = "best source of scones and danishes in Portland";
       Vendor newVendor = new Vendor(vendorName, vendoreDescription);
-      newVendor.AddOrder(newOrder);
+      newVendor.AddOrder();
 
       List<Order> result = newVendor.Orders;
 

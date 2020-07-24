@@ -64,7 +64,7 @@ This is a web application that will allow a bakery owner to keep track of their 
     | Vendor.Find(1); | Vendor { Name="Grand Central", Description="best source of scones and danishes in Portland" Id=1 } |
     |||
 
-9. The application will add a list of orders into an instance of Vendor
+9. The application will add a list of orders to an instance of Vendor
 
     | Input | Output |
     | :--- | :--- |
