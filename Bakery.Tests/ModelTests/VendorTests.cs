@@ -25,8 +25,8 @@ namespace Bakery.TestTools
       string resultName = newVendor.Name;
       string resultDescription = newVendor.Description;
 
-      Assert.AreEqual("not name", resultName);
-      Assert.AreEqual("not description", resultDescription);
+      Assert.AreEqual(name, resultName);
+      Assert.AreEqual(description, resultDescription);
     }
   }
 }
