@@ -12,3 +12,13 @@
 /Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.RazorTargetAssemblyInfo.cache
 /Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.dll
 /Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.pdb
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.Views.dll
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.Views.pdb
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.TagHelpers.input.cache
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.TagHelpers.output.cache
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.RazorCoreGenerate.cache
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Home/index.g.cshtml.cs
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.RazorTargetAssemblyInfo.cs
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.Views.pdb
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.csproj.CopyComplete
