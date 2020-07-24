@@ -6,8 +6,14 @@ using System;
 namespace Bakery.TestTools
 {
   [TestClass]
-  public class VendorTest
+  public class VendorTest: IDisposable
   {
+
+    public void Dispose()
+    {
+      Order.ClearAll();
+    }
+
     [TestMethod]
     public void VendorConstructor_CreatesInstanceOfVendor_Vendor()
     {
