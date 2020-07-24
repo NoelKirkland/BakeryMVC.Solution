@@ -57,7 +57,22 @@ namespace Bakery.TestTools
 
       int result = newVendor.Id;
 
-      Assert.AreEqual(123, result);
+      Assert.AreEqual(1, result);
+    }
+
+    [TestMethod]
+    public void Find_ReturnsOrder_Order()
+    {
+      string name1 = "Grand Central";
+      string description1 = "best source of scones and danishes in Portland";
+      string name2 = "Suzy's Bakery";
+      string description2 = "Good cupcakes. Deliveries always come on time";
+      Vendor newVendor1 = new Vendor(name1, description1);
+      Vendor newVendor2 = new Vendor(name2, description2);
+
+      Vendor result = Vendor.Find(2);
+
+      Assert.AreEqual(newVendor1, result);
     }
   }
 }
