@@ -36,17 +36,18 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void OrderConstructor_ReturnObjectId_Int()
+    public void OrderConstructor_ReturnItemList_List()
     {
       string title = "scones";
       string date = "7/24/2020";
       string description = "we ordered 50 scones but we might need more soon";
       double price = 110.00;
       Order newOrder = new Order(title, date, description, price);
+      List<Order> newList = new List<Order> { };
 
-      int result = newOrder.Id;
+      List<Order> resultList = Order.GetAll();
 
-      Assert.AreEqual(123, result);
+      CollectionAssert.AreEqual(newList, "Not this");
     }
   }
 }
