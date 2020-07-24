@@ -36,14 +36,14 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void OrderConstructor_ReturnItemList_List()
+    public void OrderConstructor_ReturnOrderList_List()
     {
       string title = "scones";
       string date = "7/24/2020";
       string description = "we ordered 50 scones but we might need more soon";
       double price = 110.00;
       Order newOrder = new Order(title, date, description, price);
-      List<Order> newList = new List<Order> { };
+      List<Order> newList = new List<Order> { newOrder };
 
       List<Order> resultList = Order.GetAll();
 
