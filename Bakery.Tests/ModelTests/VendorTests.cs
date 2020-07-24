@@ -11,7 +11,7 @@ namespace Bakery.TestTools
 
     public void Dispose()
     {
-      Order.ClearAll();
+      Vendor.ClearAll();
     }
 
     [TestMethod]
@@ -41,7 +41,7 @@ namespace Bakery.TestTools
       string name = "Grand Central";
       string description = "best source of scones and danishes in Portland";
       Vendor newVendor = new Vendor(name, description);
-      List<Vendor> newList = new List<Vendor> { };
+      List<Vendor> newList = new List<Vendor> { newVendor };
 
       List<Vendor> resultList = Vendor.GetAll();
 
