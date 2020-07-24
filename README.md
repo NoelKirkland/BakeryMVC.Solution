@@ -12,28 +12,28 @@ This is a web application that will allow a bakery owner to keep track of their 
 
     | Input | Output |
     | :--- | :--- |
-    | Order("scones", "7/24/2020", "we ordered 50 scones but we might need more soon", 110.00); | Order { Title="scones", Date="7/24/2020", Description="we ordered 50 scones but we might need more soon", Price=110.00 } |
+    | Order("scones", "7/24/2020", "ordered 50 scones but we might need more soon", 110.00); | Order { Title="scones", Date="7/24/2020", Description="ordered 50 scones but we might need more soon", Price=110.00 } |
     |||
 
 2. The application will compile all instances of the Order class into a list.
 
     | Input | Output |
     | :--- | :--- |
-    | Order("scones", "7/24/2020", "we ordered 50 scones but we might need more soon", 110.00); | List<Order>(1){ Order { Title="scones", Date="7/24/2020", Description="we ordered 50 scones but we might need more soon", Price=110.00} } |
+    | Order("scones", "7/24/2020", "ordered 50 scones but we might need more soon", 110.00); | List<Order>(1){ Order { Title="scones", Date="7/24/2020", Description="ordered 50 scones but we might need more soon", Price=110.00} } |
     |||
 
 3. The application will assign every instance of the Order class with a unique ID
 
     | Input | Output |
     | :--- | :--- |
-    | Order("scones", "7/24/2020", "we ordered 50 scones but we might need more soon", 110.00); | Order { Title="scones", Date="7/24/2020", Description="we ordered 50 scones but we might need more soon", Price=110.00, Id=1 } |
+    | Order("scones", "7/24/2020", "ordered 50 scones but we might need more soon", 110.00); | Order { Title="scones", Date="7/24/2020", Description="ordered 50 scones but we might need more soon", Price=110.00, Id=1 } |
     |||
 
 4. The application will return a specific instance object with an argument of ID number
 
     | Input | Output |
     | :--- | :--- |
-    | Order.Find(1); | Order { Title="scones", Date="7/24/2020", Description="we ordered 50 scones but we might need more soon", Price=110.00, Id=1 } |
+    | Order.Find(1); | Order { Title="scones", Date="7/24/2020", Description="ordered 50 scones but we might need more soon", Price=110.00, Id=1 } |
     |||
 
 5. The application will create an object instance of Vendor with an argument of _vendor name,_ and _vendor description_
@@ -68,7 +68,7 @@ This is a web application that will allow a bakery owner to keep track of their 
 
     | Input | Output |
     | :--- | :--- |
-    | Vendor("Grand Central", "best source of scones and danishes in Portland"); | Vendor { Name="Grand Central", Description="best source of scones and danishes in Portland" Id=1 Orders=List<Order>(1){ Order { Title="scones", Date="7/24/2020", Description="we ordered 50 scones but we might need more soon", Price=110.00, Id=1 } } } |
+    | Vendor("Grand Central", "best source of scones and danishes in Portland"); | Vendor { Name="Grand Central", Description="best source of scones and danishes in Portland" Id=1 Orders=List<Order>(1){ Order { Title="scones", Date="7/24/2020", Description="ordered 50 scones but we might need more soon", Price=110.00, Id=1 } } } |
     |||
 
 ## Setup/Installation Requirements
