@@ -28,5 +28,18 @@ namespace Bakery.TestTools
       Assert.AreEqual(name, resultName);
       Assert.AreEqual(description, resultDescription);
     }
+
+    [TestMethod]
+    public void GetAll_ReturnVendorList_List()
+    {
+      string name = "Grand Central";
+      string description = "best source of scones and danishes in Portland";
+      Vendor newVendor = new Vendor(name, description);
+      List<Vendor> newList = new List<Vendor> { };
+
+      List<Vendor> resultList = Vendor.GetAll();
+
+      CollectionAssert.AreEqual(newList, resultList);
+    }
   }
 }
