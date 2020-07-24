@@ -29,28 +29,42 @@ This is a web application that will allow a bakery owner to keep track of their 
     | Order("scones", "7/24/2020", "we ordered 50 scones but we might need more soon", 110.00); | Order { Title="scones", Date="7/24/2020", Description="we ordered 50 scones but we might need more soon", Price=110.00, Id=1 } |
     |||
 
-4. The application will create an object instance of Vendor with an argument of _vendor name,_ and _vendor description_
+4. The application will return a specific instance object with an argument of ID number
+
+    | Input | Output |
+    | :--- | :--- |
+    | Order.Find(1); | Order { Title="scones", Date="7/24/2020", Description="we ordered 50 scones but we might need more soon", Price=110.00, Id=1 } |
+    |||
+
+5. The application will create an object instance of Vendor with an argument of _vendor name,_ and _vendor description_
 
     | Input | Output |
     | :--- | :--- |
     | Vendor("Grand Central", "best source of scones and danishes in Portland"); | Vendor { Name="Grand Central", Description="best source of scones and danishes in Portland" } |
     |||
 
-5. The application will compile all instances of the Vendor class into a list.
+6. The application will compile all instances of the Vendor class into a list.
 
     | Input | Output |
     | :--- | :--- |
     | Vendor("Grand Central", "best source of scones and danishes in Portland"); | List<Vendor>(1){ Vendor { Name="Grand Central", Description="best source of scones and danishes in Portland"} } |
     |||
 
-6. The application will assign every instance of the Vendor class with a unique ID
+7. The application will assign every instance of the Vendor class with a unique ID
 
     | Input | Output |
     | :--- | :--- |
     | Vendor("Grand Central", "best source of scones and danishes in Portland"); | Vendor { Name="Grand Central", Description="best source of scones and danishes in Portland" Id=1 } |
     |||
 
-7. The application will add a list of orders into an instance of Vendor
+8. The application will return a specific instance object with an argument of ID number
+
+    | Input | Output |
+    | :--- | :--- |
+    | Vendor.Find(1); | Vendor { Name="Grand Central", Description="best source of scones and danishes in Portland" Id=1 } |
+    |||
+
+9. The application will add a list of orders into an instance of Vendor
 
     | Input | Output |
     | :--- | :--- |
