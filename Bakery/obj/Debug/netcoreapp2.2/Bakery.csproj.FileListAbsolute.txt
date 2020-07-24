@@ -1,0 +1,14 @@
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.csprojAssemblyReference.cache
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.csproj.CoreCompileInputs.cache
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.RazorAssemblyInfo.cache
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.RazorAssemblyInfo.cs
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.AssemblyInfoInputs.cache
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.AssemblyInfo.cs
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.deps.json
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.runtimeconfig.json
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.runtimeconfig.dev.json
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.dll
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.pdb
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.RazorTargetAssemblyInfo.cache
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.dll
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.pdb
