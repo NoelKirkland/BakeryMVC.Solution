@@ -67,7 +67,7 @@ namespace Bakery.Tests
 
       int result = newOrder.Id;
 
-      Assert.AreEqual(123, result);
+      Assert.AreEqual(1, result);
     }
   }
 }
