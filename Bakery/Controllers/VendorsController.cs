@@ -19,5 +19,29 @@ namespace Bakery.Controllers
     {
       return View();
     }
+
+    [HttpGet("/vendors/{id}")]
+    public ActionResult Show(int id)
+    {
+      Dictionary<string, object> model = new Dictionary<string, object>();
+      Vendor selectedVendor = Vendor.Find(id);
+      List<Order> vendorOrders = selectedVendor.Orders;
+      model.Add("vendor", selectedVendor);
+      model.Add("orders", vendorOrders);
+      return View(model);
+    }
+
+    // [HttpPost("/vendors/{vendorId}/orders")]
+    // public ActionResult Create(int vendorId, string orderTitle, string orderDate, string OrderDescription, double orderPrice)
+    // {
+    //   Dictionary<string, object> model = new Dictionary<string, object>();
+    //   Vendor foundVendor = Vendor.Find(vendorId);
+    //   Order newOrder = new Order(orderTitle, orderDate, orderDescription, orderPrice);
+    //   foundVendor.AddOrder(newOrder);
+    //   List<Order> vendorOrders = foundVendor.Orders;
+    //   model.Add("orders", vendorOrders);
+    //   model.Add("vendor", foundVendor);
+    //   return View("Show", model);
+    // }
   }
-}git commit add a vendors page and a form page to add vendors"
+}

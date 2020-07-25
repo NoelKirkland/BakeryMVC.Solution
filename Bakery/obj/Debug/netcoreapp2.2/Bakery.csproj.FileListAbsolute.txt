@@ -24,3 +24,4 @@
 /Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.csproj.CopyComplete
 /Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Vendors/index.g.cshtml.cs
 /Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Vendors/New.g.cshtml.cs
+/Users/noelkirkland/Desktop/BakeryMVC.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Vendors/Show.g.cshtml.cs
