@@ -17,15 +17,15 @@ namespace Bakery.TestTools
     [TestMethod]
     public void VendorConstructor_CreatesInstanceOfVendor_Vendor()
     {
-      Vendor newVendor = new Vendor("Grand Central", "best source of scones and danishes in Portland");
+      Vendor newVendor = new Vendor("Powell's", "iconic bookstore with a busy coffee shop");
       Assert.AreEqual(typeof(Vendor), newVendor.GetType());
     }
 
     [TestMethod]
     public void VendorConstructor_ReturnObjectValues_String()
     {
-      string name = "Grand Central";
-      string description = "best source of scones and danishes in Portland";
+      string name = "Powell's";
+      string description = "iconic bookstore with a busy coffee shop";
       Vendor newVendor = new Vendor(name, description);
 
       string resultName = newVendor.Name;
@@ -38,8 +38,8 @@ namespace Bakery.TestTools
     [TestMethod]
     public void GetAll_ReturnVendorList_List()
     {
-      string name = "Grand Central";
-      string description = "best source of scones and danishes in Portland";
+      string name = "Powell's";
+      string description = "iconic bookstore with a busy coffee shop";
       Vendor newVendor = new Vendor(name, description);
       List<Vendor> newList = new List<Vendor> { newVendor };
 
@@ -51,8 +51,8 @@ namespace Bakery.TestTools
     [TestMethod]
     public void VendorConstructor_ReturnVendorId_int()
     {
-      string name = "Grand Central";
-      string description = "best source of scones and danishes in Portland";
+      string name = "Powell's";
+      string description = "iconic bookstore with a busy coffee shop";
       Vendor newVendor = new Vendor(name, description);
 
       int result = newVendor.Id;
@@ -63,10 +63,10 @@ namespace Bakery.TestTools
     [TestMethod]
     public void Find_ReturnsOrder_Order()
     {
-      string name1 = "Grand Central";
-      string description1 = "best source of scones and danishes in Portland";
-      string name2 = "Suzy's Bakery";
-      string description2 = "Good cupcakes. Deliveries always come on time";
+      string name1 = "Powell's";
+      string description1 = "iconic bookstore with a busy coffee shop";
+      string name2 = "Le Pigeon";
+      string description2 = "French restaurant";
       Vendor newVendor1 = new Vendor(name1, description1);
       Vendor newVendor2 = new Vendor(name2, description2);
 
@@ -84,8 +84,8 @@ namespace Bakery.TestTools
       double price = 110.00;
       Order newOrder = new Order(title, date, description, price);
       List<Order> newList = new List<Order> { newOrder };
-      string vendorName = "Grand Central";
-      string vendoreDescription = "best source of scones and danishes in Portland";
+      string vendorName = "Powell's";
+      string vendoreDescription = "iconic bookstore with a busy coffee shop";
       Vendor newVendor = new Vendor(vendorName, vendoreDescription);
       newVendor.AddOrder(newOrder);
 

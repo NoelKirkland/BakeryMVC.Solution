@@ -17,7 +17,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void OrderConstructor_CreatesInstanceOfOrder_Order()
     {
-      Order newOrder = new Order("scones", "7/24/2020", "ordered 50 scones but we might need more soon", 110.00);
+      Order newOrder = new Order("scones", "7/24/2020", "ordered 50 scones and might need more soon", 110.00);
       Assert.AreEqual(typeof(Order), newOrder.GetType());
     }
 
@@ -26,7 +26,7 @@ namespace Bakery.Tests
     {
       string title = "scones";
       string date = "7/24/2020";
-      string description = "ordered 50 scones but we might need more soon";
+      string description = "ordered 50 scones and might need more soon";
       double price = 110.00;
       Order newOrder = new Order(title, date, description, price);
 
@@ -46,7 +46,7 @@ namespace Bakery.Tests
     {
       string title = "scones";
       string date = "7/24/2020";
-      string description = "ordered 50 scones but we might need more soon";
+      string description = "ordered 50 scones and might need more soon";
       double price = 110.00;
       Order newOrder = new Order(title, date, description, price);
       List<Order> newList = new List<Order> { newOrder };
@@ -61,7 +61,7 @@ namespace Bakery.Tests
     {
       string title = "scones";
       string date = "7/24/2020";
-      string description = "ordered 50 scones but we might need more soon";
+      string description = "ordered 50 scones and might need more soon";
       double price = 110.00;
       Order newOrder = new Order(title, date, description, price);
 
@@ -75,7 +75,7 @@ namespace Bakery.Tests
     {
       string title1 = "scones";
       string date1 = "7/24/2020";
-      string description1 = "ordered 50 scones but we might need more soon";
+      string description1 = "ordered 50 scones and might need more soon";
       double price1 = 110.00;
       string title2 = "croissants";
       string date2 = "7/20/2020";
@@ -90,5 +90,3 @@ namespace Bakery.Tests
     }
   }
 }
-
-// NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
