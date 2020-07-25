@@ -1,0 +1,14 @@
+@{
+  Layout = "_Layout";
+}
+
+<h1>Order details:</h1>
+
+<dl>
+  <dt><h3>order description</h3></dt>
+    <dd><h4>@Model["order"].Description</h4></dd>
+  <dt><h3>order date</h3></dt>
+    <dd><h4>@Model["order"].Date</h4></dd>
+  <dt><h3>order price</h3></dt>
+    <dd><h4>@Model["order"].Price</h4></dd>
+</dl>

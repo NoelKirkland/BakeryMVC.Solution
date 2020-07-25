@@ -1,0 +1,18 @@
+@{
+  Layout = "_Layout";
+}
+@using Bakery.Models;
+
+<h1>Add a new order to @Model.Name</h1>
+
+<form action="/vendors/@Model.Id/orders" method="post">
+  <label for="orderTitle">order title</label>
+  <input id="orderTitle" name="orderTitle" type="text">
+  <label for="orderDate">order date</label>
+  <input id="orderDate" name="orderDate" type="text">
+  <label for="orderDescription">order description</label>
+  <input id="orderDescription" name="orderDescription" type="text">
+  <label for="orderPrice">order price $</label>
+  <input id="orderPrice" name="orderPrice" type="number">
+  <button type="submit">Add</button>
+</form>

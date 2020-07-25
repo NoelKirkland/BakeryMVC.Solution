@@ -31,17 +31,17 @@ namespace Bakery.Controllers
       return View(model);
     }
 
-    // [HttpPost("/vendors/{vendorId}/orders")]
-    // public ActionResult Create(int vendorId, string orderTitle, string orderDate, string OrderDescription, double orderPrice)
-    // {
-    //   Dictionary<string, object> model = new Dictionary<string, object>();
-    //   Vendor foundVendor = Vendor.Find(vendorId);
-    //   Order newOrder = new Order(orderTitle, orderDate, orderDescription, orderPrice);
-    //   foundVendor.AddOrder(newOrder);
-    //   List<Order> vendorOrders = foundVendor.Orders;
-    //   model.Add("orders", vendorOrders);
-    //   model.Add("vendor", foundVendor);
-    //   return View("Show", model);
-    // }
+    [HttpPost("/vendors/{vendorId}/orders")]
+    public ActionResult Create(int vendorId, string orderTitle, string orderDate, string orderDescription, double orderPrice)
+    {
+      Dictionary<string, object> model = new Dictionary<string, object>();
+      Vendor foundVendor = Vendor.Find(vendorId);
+      Order newOrder = new Order(orderTitle, orderDate, orderDescription, orderPrice);
+      foundVendor.AddOrder(newOrder);
+      List<Order> vendorOrders = foundVendor.Orders;
+      model.Add("orders", vendorOrders);
+      model.Add("vendor", foundVendor);
+      return View("Show", model);
+    }
   }
 }
