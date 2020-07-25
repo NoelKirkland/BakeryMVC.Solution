@@ -38,7 +38,7 @@ namespace Bakery
 
         app.Run(async (context) =>
         {
-          await context.Response.WriteAsync("Something went wrong!");
+          await context.Response.WriteAsync("Sorry, we couldn't find the page you were looking for!");
         });
 
     }

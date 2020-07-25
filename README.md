@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a web application that will allow a bakery owner to keep track of their vendors and keep track of which order is from which vendor.
+This is a web application that will allow a bakery owner to keep track of their vendors and keep track of which order is for which vendor.
 
 ## Specifications
 
