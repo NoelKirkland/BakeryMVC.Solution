@@ -1,0 +1,12 @@
+dl {
+  padding-left: 25px;
+}
+dd {
+  padding-left: 25px;
+}
+
+body {
+  background-image: url("~/img/background_picture.jpg");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+}
