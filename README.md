@@ -79,7 +79,7 @@ This is a web application that will allow a bakery owner to keep track of their 
 * _Download this application from HitHub_
   1. _Open the following web address in your browser: `https://github.com/NoelKirkland`_
   2. _Click on the button labeled_ Repositories
-  3. _Navigate into the `noel-s-bakery` repository and click the green button labeled "Clone or download" and download the zip to your computer_
+  3. _Navigate into the `BakeryMVC.Solution` repository and click the green button labeled "Clone or download" and download the zip to your computer_
 
 * _Open and run the application_
   1. _Open the downloaded application in a text editor ([V.S. Code preferred](https://code.visualstudio.com/))_
@@ -104,9 +104,10 @@ If there are any issues or questions contact me at noelkirkland@gmail.com
 
 ## Technologies Used
 
-*  Visual Studio Code
-*  Markdown
 *  C#/.NET
+*  HTML
+*  CSS
+*  Markdown
 
 
 ### License

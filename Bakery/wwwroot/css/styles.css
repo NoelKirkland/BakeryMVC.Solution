@@ -5,8 +5,6 @@ dd {
   padding-left: 25px;
 }
 
-body {
-  background-image: url("~/img/background_picture.jpg");
-  background-repeat: no-repeat;
-  background-color: #cccccc;
+li {
+  padding: 10px;
 }
